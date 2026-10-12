@@ -1,0 +1,20 @@
+# Final model directories contain everything needed for inference.
+**/checkpoint-*/
+**/training_args.bin
+**/optimizer.pt
+**/scheduler.pt
+**/rng_state.pth
+
+# Generated outputs and local files.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+predictions.csv
+results/
+model/retrained/
+logs*/
+optuna_chemberta/
+optuna_logs/
+.DS_Store
+Thumbs.db
